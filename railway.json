@@ -1,10 +1,8 @@
 {
   "build": {
-    "builder": "docker",
-    "dockerfilePath": "./Dockerfile"
+    "builder": "nixpacks"
   },
   "deploy": {
     "startCommand": "node server/server.js"
-  },
-  "$schema": "https://schema.railway.app/railway.json"
+  }
 }
