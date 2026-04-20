@@ -1,13 +1,9 @@
 {
   "build": {
-    "builder": "nixpacks",
-    "nixpacksVersion": "v1.40.0"
+    "builder": "docker"
   },
   "deploy": {
     "startCommand": "node server/server.js"
   },
-  "$schema": "https://schema.railway.app/railway.json",
-  "env": {
-    "NODE_VERSION": "20"
-  }
+  "$schema": "https://schema.railway.app/railway.json"
 }
