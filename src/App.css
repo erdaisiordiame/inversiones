@@ -220,7 +220,7 @@
   padding: 22px;
   border: 1px solid var(--border);
   border-radius: 18px;
-  background: #fff;
+  background: var(--bg);
 }
 
 .crud-header {
@@ -261,7 +261,8 @@
 .crud-tab.active,
 .crud-tab:hover {
   background: var(--accent-bg);
-  border-color: rgba(170, 59, 255, 0.3);
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
 .crud-panel {
@@ -298,6 +299,8 @@
   padding: 10px 12px;
   border-radius: 10px;
   border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text-h);
   font: inherit;
 }
 
@@ -317,7 +320,8 @@
 }
 
 .crud-form-actions .secondary {
-  background: #f4f4f5;
+  background: var(--bg);
+  border: 1px solid var(--border);
   color: var(--text-h);
 }
 

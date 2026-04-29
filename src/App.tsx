@@ -3,6 +3,7 @@ import './App.css'
 import { MarketDataPanel } from './features/market-data'
 import { TradingCrudPage } from './features/crud'
 import { store } from './store'
+import { NewModulesPanel } from './features/new-modules/NewModulesPanel'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
 
         <TradingCrudPage />
         <MarketDataPanel />
+        <NewModulesPanel />
       </main>
     </Provider>
   )
